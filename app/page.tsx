@@ -104,7 +104,7 @@ export default function Home() {
                         </div>
                         <div className="card">
                             <div className="card-body">
-                                <p></p>
+                                <p>Pažymos dėl jaunuolynų ugdymo reikalingumo (NMA)</p>
                             </div>
                         </div>
 
