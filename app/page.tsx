@@ -1,65 +1,190 @@
+
 import Image from "next/image";
 
 export default function Home() {
-  return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
-  );
+    return (
+        <main>
+
+            {/* ================= NAVBAR ================= */}
+
+            <nav className="navbar">
+                <div className="nav-container">
+
+                    <div className="logo">
+                        <Image src="/images/logo.png" alt="Miško Ritmu logo" width={150} height={150} />
+                    </div>
+                    <div className="logo-text">
+                        MB Miško Ritmu
+                    </div>
+
+                    <div className="nav-links">
+                        <a href="#home">Pradžia</a>
+                        <a href="#services">Paslaugos</a>
+                        <a href="#about">Apie mane</a>
+                        <a href="#contact">Kontaktai</a>
+                    </div>
+
+                </div>
+            </nav>
+
+            {/* ================= HERO ================= */}
+
+            <section id="home" className="hero">
+
+                <div className="hero-content">
+
+                    <h1>Miškotvarkos ir miškininkystės paslaugos</h1>
+
+                    <p>
+                        Miškų vertinimas, projektavimas ir konsultacijos.
+                    </p>
+
+                    <a href="#contact" className="btn-primary">
+                        Susisiekti
+                    </a>
+
+                </div>
+
+            </section>
+
+            {/* ================= SERVICES ================= */}
+
+            <section id="services">
+
+                <div className="container">
+
+                    <h2>Paslaugos</h2>
+
+                    <div className="grid">
+
+                        <div className="card">
+                            <div className="card-body">
+                                <p>Miškotvarkos projektai</p>
+                            </div>
+                        </div>
+
+                        <div className="card">
+                            <div className="card-body">
+                                <p>Miško įveisimo (želdinimo) projektai</p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-body">
+                                <p>Leidimų kirsti mišką išėmimas</p>
+                            </div>
+                        </div>
+
+                        <div className="card">
+                            <div className="card-body">
+                                <p>Biržių atrėžimas pagrindiniams ir tarpiniams kirtimams</p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-body">
+                                <p>Stataus miško tūrio nustatymas vienetiniu medžių matavimo būdu</p>
+
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-body">
+                                <p>LR valstybės miškų kadastro tikslinimas</p>
+                            </div>
+                        </div>
+
+                        <div className="card">
+                            <div className="card-body">
+                                <p>Miško valdos ribų žymėjimas</p>
+                            </div>
+                        </div>
+
+                        <div className="card">
+                            <div className="card-body">
+                                <p>Konsultacijos miškotvarkos ir miškininkystės klausimais</p>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-body">
+                                <p></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            {/* ================= ABOUT ================= */}
+
+            <section id="about" className="alt">
+
+                <div className="container">
+
+                    <h2>Apie mane</h2>
+
+                    <p>
+                        x metų patirties miškotvarkoje ir y metų patirties dirbant indivudualiai su klientais.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            {/* ================= CONTACT ================= */}
+
+            <section id="contact" className="alt">
+
+                <div className="container">
+
+                    <h2>Kontaktai</h2>
+
+                    <div className="contact-info">
+                        <div className="contact-card">
+                            <h3>Susisiekite su mumis</h3>
+                            <p><strong>Telefonas:</strong> <a href="tel:+37061347676">+370 613 47676</a></p>
+                            <p><strong>El. paštas:</strong> <a href="mailto:arvyds000@gmail.com">arvyds000@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <form>
+
+                        <input
+                            type="text"
+                            placeholder="Jūsų vardas"
+                        />
+
+                        <input
+                            type="email"
+                            placeholder="El. paštas"
+                        />
+
+                        <textarea
+                            placeholder="Jūsų žinutė"
+                        />
+
+                        <button
+                            className="btn-primary"
+                        >
+                            Siųsti
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </section>
+
+            {/* ================= FOOTER ================= */}
+
+            <footer>
+
+                <p>
+                    © 2026 Miško Ritmu. Visos teisės saugomos.
+                </p>
+
+            </footer>
+
+        </main>
+    );
 }
