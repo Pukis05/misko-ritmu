@@ -11,7 +11,7 @@ export default function Home() {
                 <div className="nav-container">
 
                     <div className="logo">
-                        <Image src="/images/logo.png" alt="Miško Ritmu logo" width={150} height={150} />
+                        <Image src="/images/logo.png" alt="Miško Ritmu logo" width={100} height={100} />
                     </div>
                     <div className="logo-text">
                         MB Miško Ritmu
