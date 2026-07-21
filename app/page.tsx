@@ -20,7 +20,7 @@ export default function Home() {
                     <div className="nav-links">
                         <a href="#home">Pradžia</a>
                         <a href="#services">Paslaugos</a>
-                        <a href="#about">Apie mane</a>
+                        <a href="#about">Apie mus</a>
                         <a href="#contact">Kontaktai</a>
                     </div>
 
@@ -120,7 +120,7 @@ export default function Home() {
 
                 <div className="container">
 
-                    <h2>Apie mane</h2>
+                    <h2>Apie mus</h2>
 
                     <p>
                         x metų patirties miškotvarkoje ir y metų patirties dirbant indivudualiai su klientais.
@@ -146,30 +146,6 @@ export default function Home() {
                             <p><strong>El. paštas:</strong> <a href="mailto:arvyds000@gmail.com">arvyds000@gmail.com</a></p>
                         </div>
                     </div>
-
-                    <form>
-
-                        <input
-                            type="text"
-                            placeholder="Jūsų vardas"
-                        />
-
-                        <input
-                            type="email"
-                            placeholder="El. paštas"
-                        />
-
-                        <textarea
-                            placeholder="Jūsų žinutė"
-                        />
-
-                        <button
-                            className="btn-primary"
-                        >
-                            Siųsti
-                        </button>
-
-                    </form>
 
                 </div>
 
