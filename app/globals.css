@@ -83,7 +83,7 @@ main {
     height: 100vh;
     background: white;
     background-image: url('/images/google misko ritmu logo.svg');
-    background-size: 35%;
+    background-size: 45%;
     background-position: left center;
     background-repeat: no-repeat;
     color: #2d2d2d;
@@ -234,7 +234,7 @@ footer {
     height: 60vh;
     background: white;
     background-image: url('/images/google misko ritmu logo.svg');
-    background-size: 50%;
+    background-size: 40%;
     background-position: left center;
     background-repeat: no-repeat;
     color: #2d2d2d;

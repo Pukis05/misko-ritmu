@@ -34,6 +34,12 @@ export default function HelpfulLinks() {
 
     return (
         <main>
+            <section className="helpful-links-hero">
+                <div className="hero-content">
+                    <h1>Naudingos Nuorodos</h1>
+                    <p>Svarbi informacija mūsų klientams apie miškų industriją ir valdymą</p>
+                </div>
+            </section>
             <section className="links-section">
                 <div className="container">
                     <h2>Miškų Ištekliai ir Informacija</h2>
