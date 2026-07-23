@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Miško Ritmu",
     description: "Miškininkystės ir konsultacijų paslaugos",
     icons: {
-        icon: "/images/logo juodas.svg",
+        icon: "/images/google misko ritmu logo.svg",
     },
 };
 
