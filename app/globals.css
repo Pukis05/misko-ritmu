@@ -81,8 +81,7 @@ main {
 
 .hero {
     height: 60vh;
-    background: white;
-    color: #2d2d2d;
+    color: #FAF5EA;
     display: flex;
     justify-content: space-between;
     align-items: center;
