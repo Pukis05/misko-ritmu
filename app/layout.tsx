@@ -3,7 +3,10 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Miško Ritmu",
-  description: "Miškininkystės ir konsultacijų paslaugos",
+    description: "Miškininkystės ir konsultacijų paslaugos",
+    icons: {
+        icon: "/images/google misko ritmu logo.svg",
+    },
 };
 
 export default function RootLayout({
