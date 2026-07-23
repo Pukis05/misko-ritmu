@@ -28,6 +28,10 @@ export default function Home() {
 
             <section id="home" className="hero">
 
+                <div className="hero-logo">
+                    <Image src="/images/google misko ritmu logo.svg" alt="Miško Ritmu" width={500} height={500} />
+                </div>
+
                 <div className="hero-content">
 
                     <h1>Miškotvarkos ir miškininkystės paslaugos</h1>

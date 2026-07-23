@@ -82,19 +82,30 @@ main {
 .hero {
     height: 100vh;
     background: white;
-    background-image: url('/images/google misko ritmu logo.svg');
-    background-size: 45%;
-    background-position: left center;
-    background-repeat: no-repeat;
     color: #2d2d2d;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     text-align: left;
+    overflow: hidden;
+}
+
+.hero-logo {
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.hero-logo img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .hero-content {
-    width: 50%;
+    flex: 0 0 60%;
     padding-right: 80px;
 }
 
