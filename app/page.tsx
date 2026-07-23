@@ -124,7 +124,7 @@ export default function Home() {
                     <h2>Apie mus</h2>
 
                     <p>
-                        x metų patirties miškotvarkoje ir y metų patirties dirbant indivudualiai su klientais.
+                        Miškotvarkos projektų rengimo patirtis valstybiniams ir privatiems miškams nuo 2003 m.
                     </p>
 
                 </div>
@@ -144,7 +144,7 @@ export default function Home() {
                         <div className="contact-card">
                             <h3>Susisiekite su mumis</h3>
                             <p><strong>Telefonas:</strong> <a href="tel:+37061347676">+370 613 47676</a></p>
-                            <p><strong>El. paštas:</strong> <a href="mailto:arvyds000@gmail.com">arvyds000@gmail.com</a></p>
+                            <p><strong>El. paštas:</strong> <a href="mailto:miskoritmu@gmail.com">miskoritmu@gmail.com</a></p>
                         </div>
                     </div>
 
