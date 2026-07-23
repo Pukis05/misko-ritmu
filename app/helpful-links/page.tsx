@@ -72,6 +72,14 @@ export default function HelpfulLinks() {
                     </div>
                 </div>
             </section>
+
+            <footer>
+
+                <p>
+                    © 2026 Miško Ritmu. Visos teisės saugomos.
+                </p>
+
+            </footer>
         </main>
     );
 }
