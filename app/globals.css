@@ -21,7 +21,7 @@ body {
 
 main {
     display: block;
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 /* NAVBAR */
@@ -96,6 +96,8 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 100%;
+    position: relative;
+    width: 100%;
 }
 
 .hero-logo img {
