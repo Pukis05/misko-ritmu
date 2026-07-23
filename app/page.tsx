@@ -26,7 +26,7 @@ export default function Home() {
 
             {/* ================= HERO ================= */}
 
-            <section id="home" className="hero" style={{ backgroundImage: "url('/images/google misko ritmu logo.svg')" }}>
+            <section id="home" className="hero">
 
                 <div className="hero-content">
 

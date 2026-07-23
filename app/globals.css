@@ -82,18 +82,20 @@ main {
 .hero {
     height: 100vh;
     background: white;
-    background-size: cover;
-    background-position: center;
+    background-image: url('/images/google misko ritmu logo.svg');
+    background-size: 50%;
+    background-position: left center;
     background-repeat: no-repeat;
     color: #2d2d2d;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    text-align: center;
+    text-align: left;
 }
 
 .hero-content {
-    width: 800px;
+    width: 50%;
+    padding-right: 80px;
 }
 
 .hero h1 {
@@ -231,14 +233,15 @@ footer {
 .helpful-links-hero {
     height: 60vh;
     background: white;
-    background-size: cover;
-    background-position: center;
+    background-image: url('/images/google misko ritmu logo.svg');
+    background-size: 50%;
+    background-position: left center;
     background-repeat: no-repeat;
-    color: #285430;
+    color: #2d2d2d;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    text-align: center;
+    text-align: left;
 }
 
 .helpful-links-hero h1 {
