@@ -81,11 +81,8 @@ main {
 
 .hero {
     height: 100vh;
-    background: white;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #2d2d2d;
+    background: #355E3B;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,13 +96,11 @@ main {
 .hero h1 {
     font-size: 64px;
     margin-bottom: 20px;
-    color: #285430;
 }
 
 .hero p {
     font-size: 22px;
     margin-bottom: 30px;
-    color: #2d2d2d;
 }
 
 /* BUTTON */
@@ -231,26 +226,22 @@ footer {
 /* HELPFUL LINKS PAGE */
 .helpful-links-hero {
     height: 60vh;
-    background: white;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #285430;
+    background: #355E3B;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 80px;
 }
 
 .helpful-links-hero h1 {
     font-size: 64px;
     margin-bottom: 20px;
-    color: #285430;
 }
 
 .helpful-links-hero p {
     font-size: 22px;
-    color: #2d2d2d;
 }
 
 .links-section {
