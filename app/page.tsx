@@ -26,7 +26,7 @@ export default function Home() {
 
             {/* ================= HERO ================= */}
 
-            <section id="home" className="hero">
+            <section id="home" className="hero" style={{ backgroundImage: "url('/svg/hero-background.svg')" }}>
 
                 <div className="hero-content">
 

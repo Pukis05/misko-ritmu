@@ -34,7 +34,7 @@ export default function HelpfulLinks() {
 
     return (
         <main>
-            <section className="helpful-links-hero">
+            <section className="helpful-links-hero" style={{ backgroundImage: "url('/svg/hero-background.svg')" }}>
                 <div className="hero-content">
                     <h1>Naudingos Nuorodos</h1>
                     <p>Svarbi informacija mūsų klientams apie miškų industriją ir valdymą</p>
