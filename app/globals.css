@@ -222,3 +222,72 @@ footer {
     text-align: center;
     padding: 30px;
 }
+
+/* HELPFUL LINKS PAGE */
+.helpful-links-hero {
+    height: 60vh;
+    background: #355E3B;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.helpful-links-hero h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.helpful-links-hero p {
+    font-size: 22px;
+}
+
+.links-section {
+    background: #f5f3ec;
+    padding: 100px 0;
+}
+
+.links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.link-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 5px solid #285430;
+    position: relative;
+}
+
+.link-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.link-card h3 {
+    color: #285430;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.link-card p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.link-card .arrow {
+    color: #285430;
+    font-size: 24px;
+    float: right;
+    font-weight: bold;
+}

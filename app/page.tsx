@@ -8,11 +8,7 @@ export default function Home() {
             {/* ================= NAVBAR ================= */}
 
             <nav className="navbar">
-                <div className="nav-container">
-
-                    <div className="logo">
-                        <Image src="/images/logo.png" alt="Miško Ritmu logo" width={100} height={100} />
-                    </div>
+                <div className="nav-container">\
                     <div className="logo-text">
                         MB Miško Ritmu
                     </div>
@@ -21,6 +17,7 @@ export default function Home() {
                         <a href="#home">Pradžia</a>
                         <a href="#services">Paslaugos</a>
                         <a href="#about">Apie mus</a>
+                        <a href="/helpful-links">Naudingos Nuorodos</a>
                         <a href="#contact">Kontaktai</a>
                     </div>
 
