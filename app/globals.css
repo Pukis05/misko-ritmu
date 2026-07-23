@@ -21,7 +21,7 @@ body {
 
 main {
     display: block;
-    padding-top: 100px;
+    padding-top: 0px;
 }
 
 /* NAVBAR */
@@ -245,13 +245,11 @@ footer {
 
 .helpful-links-hero {
     background: white;
-    background-position: left center;
     background-repeat: no-repeat;
     color: #2d2d2d;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    text-align: left;
+    text-align: center;
 }
 
 .helpful-links-hero h1 {
