@@ -291,3 +291,28 @@ footer {
     float: right;
     font-weight: bold;
 }
+
+.button-group {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.btn-secondary {
+    background: #4F7942;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #4F7942;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background: white;
+    color: #4F7942;
+    border-color: #4F7942;
+}

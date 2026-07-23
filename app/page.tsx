@@ -8,7 +8,7 @@ export default function Home() {
             {/* ================= NAVBAR ================= */}
 
             <nav className="navbar">
-                <div className="nav-container">\
+                <div className="nav-container">
                     <div className="logo-text">
                         MB Miško Ritmu
                     </div>
