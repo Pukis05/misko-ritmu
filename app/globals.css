@@ -21,6 +21,11 @@ body {
 
 main {
     display: block;
+}
+
+/* Only pages that render the fixed .navbar need this offset —
+   pages without it (e.g. Helpful Links) no longer get an empty gap up top */
+body:has(.navbar) main {
     padding-top: 100px;
 }
 
@@ -246,7 +251,11 @@ footer {
     background: white;
     color: #2d2d2d;
     display: flex;
-    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    height: 60vh;
+    overflow: hidden;
 }
 
 .helpful-links-hero h1 {
@@ -360,7 +369,7 @@ footer {
 /* ---------- MOBILE (<=768px) ---------- */
 @media (max-width: 768px) {
 
-    main {
+    body:has(.navbar) main {
         padding-top: 130px; /* navbar gets taller on mobile, see below */
     }
 
@@ -461,6 +470,7 @@ footer {
     /* HELPFUL LINKS PAGE */
     .helpful-links-hero {
         flex-direction: column;
+        height: auto;
         padding: 50px 20px;
         text-align: center;
     }

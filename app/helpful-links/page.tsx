@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function HelpfulLinks() {
     const links = [
         {
@@ -35,6 +37,9 @@ export default function HelpfulLinks() {
     return (
         <main>
             <section className="helpful-links-hero">
+                <div className="hero-logo">
+                    <Image src="/images/hero.png" alt="Miško Ritmu" fill style={{objectFit: 'contain'}} />
+                </div>
                 <div className="hero-content">
                     <h1>Naudingos Nuorodos</h1>
                     <p>Svarbi informacija mūsų klientams apie miškų industriją ir valdymą</p>
