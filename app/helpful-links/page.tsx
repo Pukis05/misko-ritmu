@@ -70,7 +70,7 @@ export default function HelpfulLinks() {
             <section className="alt">
                 <div className="container">
                     <h2>Reikalinga Pagalba?</h2>
-                    <p>Jei nerandate reikiamos informacijos, nesvarbu susisiekite su mumis tiesiogiai.</p>
+                    <p>Jei nerandate reikiamos informacijos, susisiekite su mumis.</p>
                     <div className="button-group">
                         <a href="/#contact" className="btn-primary">Kontaktuoti mus</a>
                         <a href="/" className="btn-secondary">Grįžti į pagrindinį puslapį</a>
