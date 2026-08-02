@@ -3,34 +3,49 @@ import Image from "next/image";
 export default function HelpfulLinks() {
     const links = [
         {
-            title: "Lithuanian State Forests",
-            description: "Official Lithuanian State Forests service providing forestry information and resources",
-            url: "https://www.lam.lt/"
+            title: "Valstybinė miškų tarnyba",
+            description: "Kontrioliuojanti institucija",
+            url: "https://amvmt.lrv.lt/lt/"
         },
         {
-            title: "European Forestry Commission",
-            description: "Information about forestry practices and regulations across Europe",
-            url: "https://www.fao.org/about/bodies/regional-offices/europe/en"
+            title: "Lietuvos Respublikos miškų įstatymas",
+            description: "",
+            url: "https://e-seimasx.lrs.lt/portal/legalAct/lt/TAD/TAIS.6036/asr"
         },
         {
-            title: "Forest Stewardship Council (FSC)",
-            description: "International organization promoting responsible forest management",
-            url: "https://fsc.org/"
+            title: "Miško kirtimų taisyklės",
+            description: "",
+            url: "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.364764/asr"
         },
         {
-            title: "PEFC - Forest Certification",
-            description: "Program for the Endorsement of Forest Certification",
-            url: "https://www.pefc.org/"
+            title: "Lietuvos Respublikos specialiųjų žemės naudojimo sąlygų įstatymas",
+            description: "",
+            url: "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/46c841f290cf11e98a8298567570d639/asr"
         },
         {
-            title: "FAO - Forestry Department",
-            description: "United Nations Food and Agriculture Organization - Forestry resources",
-            url: "https://www.fao.org/forestry/en/"
+            title: "Miško atkūrimo ir įveisimo nuostatai",
+            description: "",
+            url: "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.318353/asr"
         },
         {
-            title: "International Tropical Timber Organization",
-            description: "Resources on sustainable timber production and forestry",
-            url: "https://www.itto.int/"
+            title: "Parama jaunuolynų ugdymui",
+            description: "",
+            url: "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/f8afa4a22cb411eea0b6cad9848a9596/asr"
+        },
+        {
+            title: "Parama miško įveisimui ir atkūrimui",
+            description: "",
+            url: "https://www.e-tar.lt/portal/lt/legalAct/44fa7a26ffee11ef8619bb348379608d/asr"
+        },
+        {
+            title: "Parama savaiminukų įtraukimui į miško žemės apskaita",
+            description: "",
+            url: "https://apva.lrv.lt/lt/veiklos-sritys/projektu-finansavimas/miskai/medziu-savaiminuku-issaugojimas-ir-itraukimas-i-misko-zemes-apskaita/"
+        },
+        {
+            title: "",
+            description: "",
+            url: ""
         }
     ];
 
