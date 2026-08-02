@@ -4,7 +4,7 @@ export default function HelpfulLinks() {
     const links = [
         {
             title: "Valstybinė miškų tarnyba",
-            description: "Kontrioliuojanti institucija",
+            description: "",
             url: "https://amvmt.lrv.lt/lt/"
         },
         {
@@ -26,27 +26,27 @@ export default function HelpfulLinks() {
             title: "Miško atkūrimo ir įveisimo nuostatai",
             description: "",
             url: "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.318353/asr"
+        },        {
+            title: "Privačių miškų vidinės miškotvarkos projektų registras",
+            description: "",
+            url: "https://projektai.amvmt.lt/"
         },
         {
-            title: "Parama jaunuolynų ugdymui",
+            title: "Parama jaunuolynų ugdymui (NMA)",
             description: "",
             url: "https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/f8afa4a22cb411eea0b6cad9848a9596/asr"
         },
         {
-            title: "Parama miško įveisimui ir atkūrimui",
+            title: "Parama miško įveisimui ir atkūrimui (NMA)",
             description: "",
             url: "https://www.e-tar.lt/portal/lt/legalAct/44fa7a26ffee11ef8619bb348379608d/asr"
         },
         {
-            title: "Parama savaiminukų įtraukimui į miško žemės apskaita",
+            title: "Parama savaiminukų įtraukimui į miško žemės apskaita (APVA)",
             description: "",
             url: "https://apva.lrv.lt/lt/veiklos-sritys/projektu-finansavimas/miskai/medziu-savaiminuku-issaugojimas-ir-itraukimas-i-misko-zemes-apskaita/"
-        },
-        {
-            title: "",
-            description: "",
-            url: ""
         }
+
     ];
 
     return (

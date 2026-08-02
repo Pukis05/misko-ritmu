@@ -74,10 +74,9 @@ export default function Home() {
                                 <p>Leidimų kirsti mišką išėmimas</p>
                             </div>
                         </div>
-
                         <div className="card">
                             <div className="card-body">
-                                <p>Biržių atrėžimas pagrindiniams ir tarpiniams kirtimams</p>
+                                <p>Biržių atrėžimas pagrindiniams ir tarpiniams kirtimams pagal FSC reikalavimus</p>
                             </div>
                         </div>
                         <div className="card">
