@@ -57,13 +57,11 @@ export default function HelpfulLinks() {
                 </div>
                 <div className="hero-content">
                     <h1>Naudingos Nuorodos</h1>
-                    <p>Svarbi informacija mūsų klientams apie miškų industriją ir valdymą</p>
+                    <p>Informacija apie miškų tvarkymą ir naudojimą reglamentuojančius svarbiausius teisės aktus</p>
                 </div>
             </section>
             <section className="links-section">
                 <div className="container">
-                    <h2>Miškų Ištekliai ir Informacija</h2>
-
                     <div className="links-grid">
                         {links.map((link, index) => (
                             <a 
@@ -85,9 +83,8 @@ export default function HelpfulLinks() {
             <section className="alt">
                 <div className="container">
                     <h2>Reikalinga Pagalba?</h2>
-                    <p>Jei nerandate reikiamos informacijos, susisiekite su mumis.</p>
                     <div className="button-group">
-                        <a href="/#contact" className="btn-primary">Kontaktuoti mus</a>
+                        <a href="/#contact" className="btn-primary">Žinutė mums</a>
                         <a href="/" className="btn-secondary">Grįžti į pagrindinį puslapį</a>
                     </div>
                 </div>
