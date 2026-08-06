@@ -71,7 +71,8 @@ export default function Home() {
                         </div>
                         <div className="card">
                             <div className="card-body">
-                                <p>Leidimų kirsti mišką išėmimas</p>
+                                <h3>Leidimų kirsti mišką išėmimas</h3>
+                                <p>Padedame gauti visus reikiamus leidimus miško kirtimui, tvarkydami dokumentaciją pagal LR miškų įstatymo reikalavimus.</p>
                             </div>
                         </div>
                         <div className="card">
