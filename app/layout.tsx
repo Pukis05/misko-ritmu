@@ -11,6 +11,7 @@ export const metadata: Metadata = {
         "leidimai kirsti mišką",
         "miško įveisimas",
         "miško valdos ribų žymėjimas",
+        "miskotvarkos paslaugos", 
     ],
     icons: {
         icon: "/images/flavicon.svg",

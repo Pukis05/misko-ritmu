@@ -29,7 +29,7 @@ export default function Home() {
             <section id="home" className="hero">
 
                 <div className="hero-logo">
-                    <Image src="/images/hero.png" alt="Miško Ritmu" fill style={{objectFit: 'contain'}} />
+                    <Image src="/images/hero.png" alt="Miškininkystės ir miškotvarkos paslaugos Lietuvoje" fill style={{ objectFit: 'contain' }} />
                 </div>
 
                 <div className="hero-content">
