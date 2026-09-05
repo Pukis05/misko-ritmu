@@ -135,14 +135,18 @@ export default function Home() {
 
                     <h2>Apie mus</h2>
 
-                    <p>
-                        Esu įgijęs aukštąjį universitetinį miškininkystės išsilavinimą ir miškininkystės magistro kvalifikacinį laipsnį bei
-                        turiu daugiau nei 20 metų profesinę patirtį miškotvarkos, miškų inventorizacijos, miško ūkinių priemonių projektavimo,
-                        miškotvarkos duomenų apdorojimo ir VMP rengimo srityse. Sukaupta praktinė patirtis leidžia racionaliai planuoti ir
-                        efektyviai atlikti lauko darbus, operatyviai apdoroti inventorizacijos duomenis, atlikti GIS darbus, projektuoti
-                        miškotvarkos priemones bei rengti projektinę dokumentaciją. Darbams atlikti turiu reikalingą nuosavą kompiuterinę,
-                        matavimo ir kitą techninę įrangą bei darbui su erdviniais ir miškotvarkos duomenimis reikalingas priemones.
-                    </p>
+                        <p>
+                        Esu įgijęs aukštąjį universitetinį miškininkystės išsilavinimą ir miškininkystės magistro kvalifikacinį laipsnį bei turiu daugiau nei 20 metų profesinę patirtį miškotvarkos, miškų inventorizacijos, miško ūkinių priemonių projektavimo, miškotvarkos duomenų apdorojimo ir VMP rengimo srityse.
+                        </p>
+                        <p>
+                        Sukaupta praktinė patirtis leidžia racionaliai planuoti ir efektyviai atlikti lauko darbus, operatyviai apdoroti inventorizacijos duomenis, atlikti GIS darbus, projektuoti miškotvarkos priemones bei rengti projektinę dokumentaciją.
+                        </p>
+                        <p>
+                        Darbams atlikti turiu reikalingą nuosavą kompiuterinę, matavimo ir kitą techninę įrangą bei darbui su erdviniais ir miškotvarkos duomenimis reikalingas priemones. Dėl to sutarties vykdymui nereikia papildomai įsigyti ar nuomotis pagrindinės darbams atlikti reikalingos techninės įrangos.
+                        </p>
+                        <p>
+                        Toks veiklos organizavimo modelis leidžia sumažinti paslaugos administracines ir organizacines sąnaudas, tačiau nemažina atliekamų darbų apimties ar kokybės.
+                        </p>
 
                 </div>
 
