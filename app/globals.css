@@ -217,6 +217,7 @@ form {
 }
 
 .contact-info {
+    background: #f5f3ec;
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
