@@ -153,11 +153,8 @@ section {
     margin: auto;
 }
 
-.about {
+#about {
     background: white;
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
 }
 
 
