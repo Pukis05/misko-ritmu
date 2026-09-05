@@ -153,6 +153,14 @@ section {
     margin: auto;
 }
 
+.about {
+    background: white;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
 .alt {
     background: #f5f3ec;
 }

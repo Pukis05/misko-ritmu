@@ -131,7 +131,7 @@ export default function Home() {
 
             <section id="about" className="alt">
 
-                <div className="container">
+                <div className="about">
 
                     <h2>Apie mus</h2>
 
