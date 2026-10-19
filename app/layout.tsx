@@ -15,6 +15,14 @@ export const metadata: Metadata = {
     siteName: "Miško Ritmu",
     locale: "lt_LT",
     type: "website",
+      images: [
+    {
+      url: "/images/hero.png",
+      width: 1200,
+      height: 630,
+      alt: "Miškotvarkos ir miškininkystės paslaugos Lietuvoje",
+    },
+  ],
   },
 };
 
