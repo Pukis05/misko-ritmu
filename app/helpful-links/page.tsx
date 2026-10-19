@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HelpfulLinks() {
     const links = [
@@ -52,9 +53,11 @@ export default function HelpfulLinks() {
     return (
         <main>
             <section className="helpful-links-hero">
-                <div className="hero-logo">
-                    <Image src="/images/hero.png" alt="Miško Ritmu" fill style={{objectFit: 'contain'}} />
-                </div>
+                <Link href="/" aria-label="Grįžti į pagrindinį puslapį">
+                    <div className="hero-logo">
+                        <Image src="/images/hero.png" alt="Miško Ritmu" fill style={{objectFit: 'contain'}} />
+                    </div>
+                </Link>
                 <div className="hero-content">
                     <h1>Naudingos Nuorodos</h1>
                     <p>Informacija apie miškų tvarkymą ir naudojimą reglamentuojančius svarbiausius teisės aktus</p>
@@ -84,8 +87,8 @@ export default function HelpfulLinks() {
                 <div className="container">
                     <h2>Reikalinga Pagalba?</h2>
                     <div className="button-group">
-                        <a href="/#contact" className="btn-primary">Žinutė mums</a>
-                        <a href="/" className="btn-secondary">Grįžti į pagrindinį puslapį</a>
+                        <Link href="/#contact" className="btn-primary">Žinutė mums</Link>
+                        <Link href="/" className="btn-secondary">Grįžti į pagrindinį puslapį</Link>
                     </div>
                 </div>
             </section>
