@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   ],
   },
   icons: {
-    icon: [{ url: "/images/logo juodas.svg", type: "image/svg+xml" }],
+    icon: [{ url: "/images/google misko ritmu logo.svg", type: "image/svg+xml" }],
   },
 };
 
