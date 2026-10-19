@@ -53,10 +53,8 @@ export default function HelpfulLinks() {
     return (
         <main>
             <section className="helpful-links-hero">
-                <Link href="/" aria-label="Grįžti į pagrindinį puslapį">
-                    <div className="hero-logo">
-                        <Image src="/images/hero.png" alt="Miško Ritmu" fill style={{objectFit: 'contain'}} />
-                    </div>
+                <Link href="/" className="hero-logo" aria-label="Grįžti į pagrindinį puslapį">
+                    <Image src="/images/hero.png" alt="Miško Ritmu" fill style={{objectFit: 'contain'}} />
                 </Link>
                 <div className="hero-content">
                     <h1>Naudingos Nuorodos</h1>
