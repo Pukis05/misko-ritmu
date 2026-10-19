@@ -25,7 +25,10 @@ export const metadata: Metadata = {
   ],
   },
   icons: {
-    icon: [{ url: "/images/google misko ritmu logo.svg", type: "image/svg+xml" }],
+    icon: [
+      { url: "/images/icon-light.svg", type: "image/svg+xml", media: "(prefers-color-scheme: light)" },
+      { url: "/images/icon-dark.svg", type: "image/svg+xml", media: "(prefers-color-scheme: dark)" },
+    ],
   },
 };
 
